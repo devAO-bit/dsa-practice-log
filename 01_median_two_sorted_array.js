@@ -42,3 +42,6 @@ nums1 = [1,2]
 nums2 = [3,4]
 
 console.log(findMedianSortedArrays(nums1, nums2))
+
+// We use binary search on the smaller array, so time complexity is O(log(min(m, n))).
+//We don’t use extra data structures, so space complexity is O(1).
